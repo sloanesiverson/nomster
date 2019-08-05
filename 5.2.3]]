@@ -1,0 +1,10 @@
+
+[!] There was an error parsing `Gemfile`: You cannot specify the same gem twice with different version requirements.
+You specified: rails (~> 5.2.3) and rails (= 3.1.0). Bundler cannot continue.
+
+ #  from /vagrant/src/nomster/Gemfile:75
+ #  -------------------------------------------
+ #  
+ >  gem 'rails', '3.1.0'
+ #  gem 'sqlite3'
+ #  -------------------------------------------
