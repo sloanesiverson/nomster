@@ -10,4 +10,4 @@ class Place < ApplicationRecord
 
   
 
-en
+end
