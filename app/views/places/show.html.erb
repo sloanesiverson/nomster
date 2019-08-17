@@ -72,6 +72,11 @@
         
         </div>
 
+        <%= simple_form_for @photo, url: '#' do |f| %>
+          <%= f.input :caption %>
+        <% end %>
+
+
         <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
           
