@@ -5,7 +5,7 @@
   -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
   -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
   box-shadow: 1px 1px 2px 0 #d0d0d0;
-  background: #fff;
+  background: image_url('oriental.png');
   border: 1px solid #ccc;
   border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
   margin-top: 10px;
@@ -20,24 +20,40 @@ h1, h2, h3, h4, h5, h6 {
 
 body {
   
-  background: image_url('circles.png');
+  background: image_url('stardust.png');
 
   font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
 
 }
 
 .navbar {
-  background: image_url('darkness.png');
+  background: image_url('stardust.png');
   box-shadow: 3px 3px 5px #D2DDEB;
     margin-bottom: 0;
 }
 
 .navbar-inverse .navbar-brand {
-  color: #E9D6BE;
+  color: #c9c2a5;
    font-family: 'orbitronblack',sans-serif;
    font-size:26px;
 
 }
+
+
+.nav-link {
+    color: #5e5e5d;
+    
+}
+
+h1 {
+
+color: #75736c;
+
+}
+
+
+
+
  
 .pagination a {
   color: black;
@@ -145,13 +161,13 @@ blockquote p {
 
 .img-fluid{
  height: 350px;
-  width: 85%;
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 100%;
   
 }
 
