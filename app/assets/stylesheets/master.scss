@@ -14,6 +14,7 @@
   padding: 20px;
    width: auto ;
   height: auto ;
+
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -30,14 +31,7 @@ body {
 
 }
 
-@media only screen and (min-width: 800px) {
-.img-fluid {
-   object-fit: cover;
-  width: 50px;
-  height: 100px;
 
-  }
-  }
 
 
   
@@ -45,9 +39,17 @@ body {
 
 
 
-@media only screen and (max-width: 500px) {
-  img {
-  height: 100vh;
+@media only screen and (min--moz-device-pixel-ratio: 2),
+
+only screen and (-o-min-device-pixel-ratio: 2/1),
+
+only screen and (-webkit-min-device-pixel-ratio: 2),
+
+only screen and (min-device-pixel-ratio: 2) {
+
+.place_img {
+
+  height: 550px;
   width: 100%;
   object-fit: contain;
   }
@@ -170,6 +172,7 @@ blockquote p {
 .carousel-inner > .carousel-item > img, .carousel-inner > .carousel-item > a > img {
   max-height: 550px;
   width: 100%;
+   object-fit: cover;
 
 }
 
@@ -181,10 +184,9 @@ blockquote p {
 }
 
 .index-image-size {
-  height: 450px;
-  width: 640x;;
-  border: 1px solid #ddd;
-  border-radius: 4px;
+  height: 550px;
+  width: 100%;
+  border: 0;
   padding: 5px;
   display: block;
   margin-left: auto;
@@ -194,18 +196,27 @@ blockquote p {
   
 }
 
-.img-fluid{
- height: 350px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
+.place_img {
+ height: 550px;
+  width: 100%;
+  border: 0;
   padding: 5px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+  object-fit: contain;
 
 
   
+}
+
+
+carousel_img {
+
+max-height: 550px;
+  width: 100%;
+  
+
 }
 
 

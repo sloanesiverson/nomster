@@ -123,7 +123,7 @@
 <div class="booyah-box col-10 offset-1">
 <div class="col-10 offset-1">
   <% @place.photos.each do |photo| %>
-  <%= image_tag photo.picture.to_s, class: 'img-fluid' %>
+  <%= image_tag photo.picture.to_s, class: 'place_img' %>
   <i><%= photo.caption %></i>
 <% end %>
 </div>
