@@ -1,6 +1,8 @@
 @import "bootstrap";
 @import "font-awesome";
 
+
+
 .booyah-box {
   -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
   -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
@@ -25,6 +27,18 @@ body {
   font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
 
 }
+
+
+
+
+@media only screen and (max-width: 400px) {
+  img {
+    height:320px;
+    width: 540px;
+  }
+  }
+
+
 
 .navbar {
   background: image_url('stardust.png');
