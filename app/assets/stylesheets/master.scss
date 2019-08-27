@@ -12,6 +12,8 @@
   border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
   margin-top: 10px;
   padding: 20px;
+   width: auto ;
+  height: auto ;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -28,13 +30,26 @@ body {
 
 }
 
+@media only screen and (min-width: 800px) {
+.img-fluid {
+   object-fit: cover;
+  width: 50px;
+  height: 100px;
+
+  }
+  }
+
+
+  
 
 
 
-@media only screen and (max-width: 400px) {
+
+@media only screen and (max-width: 500px) {
   img {
-    height:320px;
-    width: 540px;
+  height: 100vh;
+  width: 100%;
+  object-fit: contain;
   }
   }
 
@@ -174,6 +189,7 @@ blockquote p {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  object-fit: contain;
   
   
 }
