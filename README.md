@@ -18,4 +18,4 @@ Nomster is a clone of *Yelp* built using the Ruby on Rails framework. Users are 
 * User dashboard display user's submitted locations, comments, and other stats
 
 ## Screenshot:
-![](/images/screenshot1.png)
+![](/images/filename%20screenshot1.png)
