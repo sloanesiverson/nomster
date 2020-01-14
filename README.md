@@ -3,7 +3,7 @@ Nomster is a clone of *Yelp* built using the Ruby on Rails framework. Users are 
 
 [View The Deployed Application Here](https://nomster-sloane-siverson.herokuapp.com/)
 
-## Features:
+### Features:
 * Built using Ruby on Rails
 * Modals for location submissions
 * Google Maps API to display location map
